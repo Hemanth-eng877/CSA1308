@@ -1,0 +1,5 @@
+Placeholder: Output should be generated on local machine via GCC execution.
+Expected output:
+Card Inserted. Moving to PIN State.
+Dispensing 500. Transaction Complete.
+Card Ejected. Back to Idle.

@@ -1,0 +1,25 @@
+#include <stdio.h>
+#include <ctype.h>
+#include <string.h>
+
+int main() {
+    char str[100];
+    printf("Enter identifier: ");
+    scanf("%s", str);
+    
+    int valid = 1;
+    if (!isalpha(str[0]) && str[0] != '_') {
+        valid = 0;
+    } else {
+        for (int i = 1; i < strlen(str); i++) {
+            if (!isalnum(str[i]) && str[i] != '_') {
+                valid = 0; break;
+            }
+        }
+    }
+    
+    if (valid) printf("Valid Identifier\n");
+    else printf("Invalid Identifier\n");
+    
+    return 0;
+}

@@ -1,0 +1,8 @@
+Placeholder: Output should be generated on local machine via GCC execution.
+Expected output:
+Final CNF:
+S -> AX | YB | a
+X -> SA
+A -> b | AX | YB | a
+Y -> a
+B -> b

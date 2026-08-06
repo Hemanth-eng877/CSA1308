@@ -1,0 +1,7 @@
+Placeholder: Output should be generated on local machine via GCC execution.
+Expected output:
+Vending Machine (Item Price: 15)
+Current State (Amount): 0
+Current State (Amount): 10
+Item Dispensed!
+Change returned: 5

@@ -1,0 +1,4 @@
+Placeholder: Output should be generated on local machine via GCC execution.
+Expected output:
+NFA to DFA Conversion Simulation
+Subset construction completed.

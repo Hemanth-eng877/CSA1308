@@ -1,0 +1,3 @@
+Placeholder: Output should be generated on local machine via GCC execution.
+Expected output:
+Halted. Final tape: 001101

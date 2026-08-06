@@ -1,0 +1,4 @@
+Placeholder: Output should be generated on local machine via GCC execution.
+Expected output:
+Universal Turing Machine Simulator
+Simulation Complete. Output: Accepted.
